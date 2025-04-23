@@ -1,0 +1,25 @@
+A simple Python application to automatically organize files into folders by their extensions, with a user-friendly interface.
+Features
+ Easy-to-use GUI (Tkinter)
+ Sort files by extension (e.g., .jpg, .pdf, .mp3)
+ Filter by specific extension (e.g., organize only .pdf files)
+ Error logging (saves issues to file_organizer_errors.log)
+ Progress tracking (tqdm progress bars in terminal)
+ Standalone EXE (No Python needed—just download and run!)
+Option 1: Run from Source (Python Required)
+Clone the repo:
+
+bash
+git clone https://github.com/your-username/file_organizer.git
+Install dependencies:
+pip install tkinter tqdm
+Run the script:
+python file_organizer.py
+Option 2: Download the EXE (No Python Needed)
+Grab the latest .exe from Releases and double-click to run!
+How to Use
+Select a folder (click "Browse" or paste a path).
+
+(Optional) Enter an extension (e.g., jpg) to organize only those files.
+
+Click "Organize Files"—done!
